@@ -39,6 +39,12 @@ function App() {
           <Route path="/channel/batancoop">
             <Channel id='batancoop' />
           </Route>
+          <Route path="/channel/aca-estamos">
+            <Channel id='aca-estamos' />
+          </Route>
+          <Route path="/channel/basquet-vision">
+            <Channel id='basquet-vision' />
+          </Route>
         </Switch>
         <Footer />
       </HashRouter>
